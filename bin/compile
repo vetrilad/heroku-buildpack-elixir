@@ -34,6 +34,12 @@ clean_cache
 download_erlang
 install_erlang
 
+download_elixir
+install_elixir
+restore_mix
+install_hex
+install_rebar
+
 pre_compile_hook
 
 post_compile_hook
