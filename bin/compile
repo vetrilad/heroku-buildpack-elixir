@@ -34,21 +34,6 @@ clean_cache
 download_erlang
 install_erlang
 
-download_elixir
-install_elixir
-restore_mix
-install_hex
-install_rebar
-
 pre_compile_hook
-
-restore_app
-app_dependencies
-copy_hex
-compile_app
-backup_app
-backup_mix
-write_profile_d_script
-write_export
 
 post_compile_hook
