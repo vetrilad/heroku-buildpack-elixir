@@ -5,5 +5,5 @@ cat <<EOF
 addons:
   []
 default_process_types:
-  web: mix run --no-halt
+  web: rel/dt_journey_navigation/bin/dt_journey_navigation foreground
 EOF
