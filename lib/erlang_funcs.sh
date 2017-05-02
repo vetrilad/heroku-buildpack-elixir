@@ -37,6 +37,9 @@ function install_erlang() {
   $(erlang_build_path)/Install -minimal $(runtime_erlang_path)
 
   cp -R $(erlang_build_path) $(erlang_path)
+  echo "TROLOLOLOLOLOLOLO"
+  erlang_build_path
+  echo "TROLOLOLOLOLOLOLO"
   PATH=$(erlang_path)/bin:$PATH
 }
 
